@@ -4,59 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rebornian48 Latest Update</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.1.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <title>Rebornian48</title>
+    <!-- DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.1.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" />
+    <link rel="stylesheet" href="https://rebornian48.github.io/style.css">
 </head>
 <body>
+    <section class="animated-background">
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
     <div class="flex justify-center">
         <div class="mockup-phone border-primary">
             <div class="camera"></div> 
             <div class="display">
                 <div class="artboard artboard-demo phone-1">
-
                     <img src="https://avatars.githubusercontent.com/u/80138640" alt="Avatar Rebornian48">
-                    Hi. New update will available soon.
-                    <span class="countdown font-mono text-6xl">
-                        <span style="--value:5;"></span>%
-                    </span>
+                    @rebornian48
                     <span class="loading loading-infinity loading-lg"></span>
-                    <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn" onclick="flag1.showModal()">
-                        <img src="https://flagcdn.com/ua.svg" width="50" alt="Ukraine">
-                        <img src="https://flagcdn.com/ps.svg" width="50" alt="Palestine">                    
-                    </button>
-                    <br />
-                    <dialog id="flag1" class="modal">
-                        <form method="dialog" class="modal-box">
-                            <p class="py-4">
-                                "Bahwa sesungguhnya kemerdekaan itu ialah hak segala bangsa dan oleh sebab itu, maka penjajahan di atas dunia harus dihapuskan, karena tidak sesuai dengan perikemanusiaan dan perikeadilan." (Pembukaan UUD 1945 alinea 1)
-                            </p>
-                        </form>
-                        <form method="dialog" class="modal-backdrop">
-                            <button>close</button>
-                        </form>
-                    </dialog>
-                    <button class="btn" onclick="flag2.showModal()">
+                    <button class="btn btn-outline" onclick="flag2.showModal()">
                         MULAI
                     </button>
                     <dialog id="flag2" class="modal">
                         <form method="dialog" class="modal-box">
-                            <ul class="steps steps-vertical">
-                                <li class="step step-primary">Perencanaan Pembangunan Aplikasi</li>
-                                <li class="step">Pembangunan Basis Data</li>
-                                <li class="step">Pembangunan Modul Input dan Edit untuk Admin</li>
-                                <li class="step">Pembangunan Modul untuk Tampilan ke Publik</li>
-                                <li class="step">Pembangunan API</li>
+                            <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                            <center>
+                            MENU UTAMA
+                            <br /><br />
+                            <ul class="menu bg-base-200 w-56 rounded-box">
+                                <li><a href="https://rebornian48.com" target="_blank"><i class="fa-sharp fa-solid fa-globe">&nbsp;</i>Situs Utama</a></li>
+                                <li><a href="https://stats.uptimerobot.com/0MQXAIkn1p" target="_blank"><i class="fa-solid fa-chart-simple">&nbsp;</i>Status</a></li>
+                                <li><a href="https://github.com/rebornian48" target="_blank"><i class="fab fa-github">&nbsp;</i>Github</a></li>
+                                <li><a href="https://twitter.com/rebornian48" target="_blank"><i class="fab fa-twitter">&nbsp;</i>Twitter</a></li>
+                                <li><a href="https://t.me/rebornian48" target="_blank"><i class="fa-solid fa-paper-plane">&nbsp;</i>Telegram</a></li>
+                                <li><a href="https://saweria.co/Rebornian48" target="_blank"><i class="fa-sharp fa-solid fa-coins">&nbsp;</i>Saweria</a></li>
+                                <li><a href="https://karyakarsa.com/rebornian48" target="_blank"><i class="fa-sharp fa-solid fa-coins">&nbsp;</i>KaryaKarsa</a></li>
+                                <div class="modal-action">
+                                    <button class="btn">Kembali Ke Menu Awal</button>
+                                </div>
                             </ul>
+                        </center>
                         </form>
                         <form method="dialog" class="modal-backdrop">
                             <button>close</button>
                         </form>
-                    </dialog>
+                    </dialog> 
+                    <br /><br />
+                    <br />
+                    <p>Made with <i class="fa-sharp fa-solid fa-heart"></i> and <i class="fa-sharp fa-solid fa-mug-hot"></i></p>
+                    <p>&copy; 2023</p>
                 </div>
             </div>
         </div>
     </div>
+    <!-- TailwindCSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 </body>'
 </html>

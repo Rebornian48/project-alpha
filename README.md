@@ -1,3 +1,5 @@
 # Rebornian48 Alpha Project
 
-Hanya untuk pengetesan proyek selanjutnya
+Hanya untuk pengujian perubahan pada halaman utama situs web Rebornian48 di Github
+
+----------------------------------------------------------------
